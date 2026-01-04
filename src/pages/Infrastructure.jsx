@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Factory, TrendingUp, Award, Users, MapPin, Package } from 'lucide-react';
 import a from "../assets/a.jpeg"
 import b from "../assets/b.jpeg"
-import c from "../assets/c.jpeg"
+import c from "../assets/c.jpg"
 import d from "../assets/d.jpeg"
 import e from "../assets/e.jpeg"
 import f from "../assets/f.jpeg"
@@ -37,7 +37,7 @@ const Infrastructure = () => {
     },
     {
       title: 'Distribution Network',
-      description: 'Pan-India distribution network with logistics partnerships ensuring timely delivery to our valued customers.',
+      description: 'We distribute Everything from factory factory.',
       icon: MapPin
     }
   ];

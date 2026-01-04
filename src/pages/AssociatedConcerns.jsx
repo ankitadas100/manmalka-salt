@@ -132,7 +132,7 @@ const AssociatedConcerns = () => {
         </div>
 
         {/* Concerns Cards with Hover Effects */}
-        <div className="grid md:grid-cols-3 gap-8 mb-20">
+        <div className="grid md:grid-cols-2 gap-8 mb-20">
           {concerns.map((concern, index) => {
             const Icon = concern.icon;
             const colorClasses = {

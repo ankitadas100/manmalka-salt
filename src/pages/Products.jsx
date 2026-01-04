@@ -56,7 +56,7 @@ const Products = () => {
     { id: 'all', label: 'All Products', icon: Package },
     { id: 'salt', label: 'Salt Products', icon: Sparkles },
     { id: 'brands', label: 'Our Brands', icon: Award },
-    { id: 'riceHusk', label: 'Rice Husk', icon: Package }
+
   ];
 
   return (

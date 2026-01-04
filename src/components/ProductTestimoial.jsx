@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
-import img1 from "../assets/lrh.jpg"
 import img2 from "../assets/lhis.jpg"
 import img3 from "../assets/cs.jpg"
 import img4 from "../assets/vacuum-salt.jpg"
@@ -8,17 +7,11 @@ import img5 from "../assets/Raw_Salt.jpg"
 import img6 from "../assets/refined.jpg"
 import img7 from "../assets/rffs.webp"
 import img8 from "../assets/superfinesalt.jpg"
+import img1 from "../assets/bspic.jpg"
+import img9 from "../assets/rspic.jpg"
 const TestimonialCarousel = () => {
 
   const testimonials = [
-    {
-      id: 1,
-      name: "Laghu Rice Husk",
-      role: "CEO, TechCorp",
-      image: img1,
-      text: "Outstanding service! The team went above and beyond to deliver exceptional results.",
-      rating: 5
-    },
     {
       id: 2,
       name: "Low Hardness Industrial Salt",
@@ -72,6 +65,22 @@ const TestimonialCarousel = () => {
       name: "Superfine Salt",
       role: "CTO, InnovateLabs",
       image: img8,
+      text: "Their technical expertise and innovative solutions have been game-changing for our projects.",
+      rating: 5
+    },
+    {
+      id: 9,
+      name: "Black Salt (Coming soon)",
+      role: "CTO, InnovateLabs",
+      image: img1,
+      text: "Their technical expertise and innovative solutions have been game-changing for our projects.",
+      rating: 5
+    },
+    {
+      id: 10,
+      name: "Red Salt (Coming soon)",
+      role: "CTO, InnovateLabs",
+      image: img9,
       text: "Their technical expertise and innovative solutions have been game-changing for our projects.",
       rating: 5
     }

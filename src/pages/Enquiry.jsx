@@ -43,7 +43,7 @@ const Enquiry = () => {
     { 
       icon: Phone,
       title: 'Phone',
-      details: ['033 46012461', '+91 9331166994'],
+      details: ['033 46012461', '+91 9825904444'],
       color: 'blue',
       link: 'tel:919331166994'
     },
