@@ -48,8 +48,8 @@ export default function ProfessionalFooter() {
 
                             <div className="flex items-center gap-3 group">
                                 <Phone className="w-5 h-5 shrink-0 text-blue-300 group-hover:text-blue-200 transition-colors" />
-                                <a href="tel:9825904444" className="text-sm hover:text-blue-300 transition-colors">
-                                    033 46012461 / 9825904444
+                                <a href="tel:9830866994" className="text-sm hover:text-blue-300 transition-colors">
+                                    033 46012461 / 9830866994
                                 </a>
                             </div>
 

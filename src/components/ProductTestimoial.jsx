@@ -70,7 +70,7 @@ const TestimonialCarousel = () => {
     },
     {
       id: 9,
-      name: "Black Salt (Coming soon)",
+      name: "Black Salt (Launching Soon)",
       role: "CTO, InnovateLabs",
       image: img1,
       text: "Their technical expertise and innovative solutions have been game-changing for our projects.",
@@ -78,7 +78,7 @@ const TestimonialCarousel = () => {
     },
     {
       id: 10,
-      name: "Red Salt (Coming soon)",
+      name: "Rock Salt (Launching Soon)",
       role: "CTO, InnovateLabs",
       image: img9,
       text: "Their technical expertise and innovative solutions have been game-changing for our projects.",
