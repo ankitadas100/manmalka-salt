@@ -14,8 +14,8 @@ const Contact = () => {
       company: "MS MANMALKA SALT PVT LTD.",
       address: "156A LENIN SARANI, KAMALALAYA CENTRE, ROOM NO 514, 5TH FLOOR, KOL - 700013, WEST BENGAL",
       phone: "033 4601 2461",
-      whatsapp: "9825904444",
-      emails: ["msmsaltoffice@gmail.com", ""]
+      whatsapp: "9830866994",
+      emails: ["info@msmsalt.com", ""]
     },
     factories: [
       {
@@ -25,7 +25,7 @@ const Contact = () => {
         company: "MANMALKA SALT INDUSTRY",
         address: "TRAVEL NO 200, CITY/VILLAGE - PADANA, TALUKA - GANDHIDHAM. 370201 DISTT KACHH, GUJARAT",
         phone: "9595733555",
-        email: "manmalkasalt@gmail.com"
+        email: "info@msmsalt.com"
       },
       {
         id: 2,
@@ -34,7 +34,7 @@ const Contact = () => {
         company: "MANMALKA SALT INDUSTRY",
         address: "OFFICE NO 102, CHETNA CHEMBER, SECTOR 9, PLOT NO 38, 1ST FLOOR, GANDHIDHAM KACHH 370201.",
         phone: "9595733555",
-        email: "manmalkasalt@gmail.com"
+        email: "info@msmsalt.com"
       },
      
     ]
