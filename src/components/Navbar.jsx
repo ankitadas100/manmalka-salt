@@ -48,9 +48,9 @@ export default function Navbar() {
                 <Phone className="w-8 h-8" />
                 <a href="tel:9830866994"><span className="text-gray-700 text-2xl hover:text-yellow-500">033 46012461 / 9830866994</span></a>
               </div>
-              <a href="mailto:msmsaltoffice@gmail.com"> <div className="flex items-center space-x-2 text-yellow-500 mr-4.25">
+              <a href="mailto:info@msmsalt.com"> <div className="flex items-center space-x-2 text-yellow-500 mr-4.25">
                 <Mail className="w-8 h-8" />
-                <span className="text-gray-700 text-2xl hover:text-yellow-500">msmsaltoffice@gmail.com</span>
+                <span className="text-gray-700 text-2xl hover:text-yellow-500">info@msmsalt.com</span>
               </div></a>
             </div>
           </div>

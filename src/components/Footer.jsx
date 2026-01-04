@@ -55,8 +55,8 @@ export default function ProfessionalFooter() {
 
                             <div className="flex items-center gap-3 group">
                                 <Mail className="w-5 h-5 shrink-0 text-blue-300 group-hover:text-blue-200 transition-colors" />
-                                <a href="mailto:msmsaltoffice@gmail.com" className="text-sm hover:text-blue-300 transition-colors break-all">
-                                    msmsaltoffice@gmail.com
+                                <a href="mailto:info@msmsalt.com" className="text-sm hover:text-blue-300 transition-colors break-all">
+                                    info@msmsalt.com
                                 </a>
                             </div>
                         </div>
