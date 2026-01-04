@@ -323,7 +323,7 @@ const Enquiry = () => {
           <p className="text-blue-100 text-lg mb-6">Our team is ready to help you with any queries</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919876543210"
+              href="tel:+919830866994"
               className="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 inline-flex items-center justify-center space-x-2"
             >
               <Phone className="w-5 h-5" />
