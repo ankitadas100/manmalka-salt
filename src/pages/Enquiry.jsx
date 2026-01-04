@@ -51,7 +51,7 @@ const Enquiry = () => {
 
       icon: Mail,
       title: 'Email',
-      details: ['msmsaltoffice@gmail.com', 'msmsalt@hotmail.com'],
+      details: ['msmsaltoffice@gmail.com', ''],
       color: 'green',
       link: 'mailto:msmsaltoffice@gmail.com'
     },
@@ -65,7 +65,7 @@ const Enquiry = () => {
     {
       icon: Clock,
       title: 'Business Hours',
-      details: ['Mon - Sat: 9:00 AM - 6:00 PM', 'Sunday: Closed'],
+      details: ['Mon - Sat: 11:00 AM - 6:00 PM', 'Sunday: Closed'],
       color: 'orange',
       link: '#'
     }

@@ -14,8 +14,8 @@ const Contact = () => {
       company: "MS MANMALKA SALT PVT LTD.",
       address: "156A LENIN SARANI, KAMALALAYA CENTRE, ROOM NO 514, 5TH FLOOR, KOL - 700013, WEST BENGAL",
       phone: "033 4601 2461",
-      whatsapp: "9331166994",
-      emails: ["msmsaltoffice@gmail.com", "msmsalt@hotmail.com"]
+      whatsapp: "9825904444",
+      emails: ["msmsaltoffice@gmail.com", ""]
     },
     factories: [
       {
@@ -36,24 +36,7 @@ const Contact = () => {
         phone: "9595733555",
         email: "manmalkasalt@gmail.com"
       },
-      {
-        id: 3,
-        type: "work",
-        title: "FACTORY WORK (2)",
-        company: "MAHADEV CHEMFOOD INDUSTRY PVT. LTD.",
-        address: "SURVEY NO. 782, NEAR GOVT HOSPITAL, NH-27, VILLAGE SANTALPUR, TALUKA SANTALPUR, DISTT PATAN, PINCODE 385350, GUJARAT",
-        phone: "98302 66994",
-        email: "mahadevchemfood21@hotmail.com"
-      },
-      {
-        id: 4,
-        type: "office",
-        title: "FACTORY OFFICE (2)",
-        company: "MAHADEV CHEMFOOD INDUSTRY PVT. LTD.",
-        address: "SURVEY NO. 782, NEAR GOVT HOSPITAL, NH-27, VILLAGE SANTALPUR, TALUKA SANTALPUR, DISTT PATAN, PINCODE 385350, GUJARAT",
-        phone: "98302 66994",
-        email: "mahadevchemfood21@hotmail.com"
-      }
+     
     ]
   };
 

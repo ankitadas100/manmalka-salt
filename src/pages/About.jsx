@@ -70,7 +70,7 @@ export default function About() {
               MANMALKA SALT is a premier salt manufacturing company committed to delivering exceptional quality products to our valued customers. We maintain industry-standard quality protocols, ensuring safe packaging, fast-paced delivery, and unwavering adherence to our commitments.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Through innovative technology and leading infrastructure, we've built our reputation on three fundamental pillars: <span className="font-semibold text-blue-900">Honesty, Integrity, and Transparency</span>. These values guide every aspect of our business, from production to customer service, certifying our success and fostering lasting loyalty among our consumers.
+              Through innovative technology and leading infrastructure, we've built our reputation on three fundamental pillars: <span className="font-semibold text-blue-900">Honesty, Integrity, and Transparency</span>. These values guide every aspect of our business, from production to customer service, certifying our success and fostering lasting loyalty among our customers.
             </p>
           </div>
           <div className="relative">

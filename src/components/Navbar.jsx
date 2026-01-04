@@ -46,7 +46,7 @@ export default function Navbar() {
             <div className="hidden lg:flex flex-col items-end space-y-1 text-sm">
               <div className="flex items-center space-x-2 text-yellow-500">
                 <Phone className="w-8 h-8" />
-                <a href="tel:03346012461"><span className="text-gray-700 text-2xl hover:text-yellow-500">033 46012461 / 9331166994</span></a>
+                <a href="tel:03346012461"><span className="text-gray-700 text-2xl hover:text-yellow-500">033 46012461 / 9830866944</span></a>
               </div>
               <a href="mailto:msmsaltoffice@gmail.com"> <div className="flex items-center space-x-2 text-yellow-500 mr-4.25">
                 <Mail className="w-8 h-8" />

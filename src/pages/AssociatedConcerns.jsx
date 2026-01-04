@@ -28,15 +28,7 @@ const AssociatedConcerns = () => {
       color: 'green',
       features: ['Manufacturing Unit', 'Quality Control Lab', 'Processing Facility']
     },
-    {
-      id: 3,
-      name: 'MAHADEV CHEMFOOD INDUSTRY PVT. LTD.',
-      location: 'SANTHALPUR, GUJARAT',
-      description: 'Specialized chemical and food-grade salt production facility',
-      icon: Shield,
-      color: 'purple',
-      features: ['Chemical Processing', 'Food Grade Production', 'Research & Development']
-    }
+   
   ];
 
   const capabilities = [
@@ -67,10 +59,10 @@ const AssociatedConcerns = () => {
   ];
 
   const stats = [
-    { label: 'Production Facilities', value: '3', suffix: '+' },
+    { label: 'Production Facilities', value: '1', suffix: '' },
     { label: 'States Covered', value: '2', suffix: '' },
     { label: 'Annual Capacity', value: '50K', suffix: ' MT' },
-    { label: 'Quality Standards', value: 'ISO', suffix: '' }
+    { label: 'Quality Assurnce', value: 'ISO', suffix: '' }
   ];
 
   return (
@@ -112,7 +104,7 @@ const AssociatedConcerns = () => {
       {/* Stats Bar with Animation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-20 relative z-10">
         <div className="bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {stats.map((stat, index) => (
               <div
                 key={index}

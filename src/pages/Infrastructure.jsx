@@ -13,9 +13,9 @@ const Infrastructure = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const stats = [
-    { icon: Factory, label: 'Manufacturing Units', value: '5+', color: 'blue' },
+    { icon: Factory, label: 'Manufacturing Units', value: '1+', color: 'blue' },
     { icon: TrendingUp, label: 'Years of Growth', value: '13+', color: 'green' },
-    { icon: Award, label: 'Quality Standards', value: 'ISO', color: 'purple' },
+   
     { icon: Users, label: 'Team Members', value: '200+', color: 'orange' }
   ];
 
@@ -72,17 +72,26 @@ const Infrastructure = () => {
 
       {/* Stats Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 relative z-10">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+        <div className="grid grid-cols-2 lg:flex lg:justify-center gap-4 lg:gap-6">
           {stats.map((stat, index) => {
             const Icon = stat.icon;
             return (
               <div
                 key={index}
-                className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-              >
-                <div className={`inline-flex p-3 rounded-lg bg-${stat.color}-50 mb-4`}>
-                  <Icon className={`w-6 h-6 text-${stat.color}-600`} />
-                </div>
+                className="w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)] bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+>
+              
+    <div className={`inline-flex p-3 rounded-lg mb-4 ${
+  stat.color === 'blue' ? 'bg-blue-50' : 
+  stat.color === 'green' ? 'bg-green-50' : 
+  stat.color === 'purple' ? 'bg-purple-50' : 'bg-gray-50'
+}`}>
+  <Icon className={`w-6 h-6 ${
+    stat.color === 'blue' ? 'text-blue-600' : 
+    stat.color === 'green' ? 'text-green-600' : 
+    stat.color === 'purple' ? 'text-purple-600' : 'text-gray-600'
+  }`} />
+</div>
                 <div className="text-3xl font-bold text-gray-900 mb-1">{stat.value}</div>
                 <div className="text-sm text-gray-600">{stat.label}</div>
               </div>

@@ -26,12 +26,9 @@ const Products = () => {
       "MSM.",
       "CITI COOK."
     ],
-    riceHusk: [
-      "Boiled Rice Husk.",
-      "Unboiled Rice Husk.",
-      "Lal Swarno Rice Husk.",
-      "Laghu Rice Husk."
-    ]
+   
+
+    
   };
 
   const brandImages = [
@@ -225,42 +222,7 @@ const Products = () => {
           </div>
         )}
 
-        {/* Type of Rice Husk Section */}
-        {(activeCategory === 'all' || activeCategory === 'riceHusk') && (
-          <div className={`transition-all duration-1000 delay-900 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
-            }`}>
-            <div className="mb-10">
-              <div className="flex items-center mb-4">
-                <div className="w-2 h-12 bg-linear-to-b from-green-500 to-green-600 rounded-full mr-4"></div>
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-800">Type Of Rice Husk</h2>
-              </div>
-              <p className="text-slate-600 text-lg ml-6">Natural and sustainable rice husk solutions</p>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {products.riceHusk.map((item, index) => (
-                <div
-                  key={index}
-                  className={`group bg-linear-to-br from-green-50 to-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-green-100 hover:border-green-400 transform hover:-translate-y-2 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
-                    }`}
-                  style={{ transitionDelay: `${1000 + index * 100}ms` }}
-                >
-                  <div className="flex items-start">
-                    <div className="shrink-0">
-                      <CheckCircle2 className="w-7 h-7 text-green-500 group-hover:scale-125 transition-transform duration-300" />
-                    </div>
-                    <div className="ml-4 flex-1">
-                      <h3 className="text-xl font-bold text-slate-800 group-hover:text-green-600 transition-colors">
-                        {item}
-                      </h3>
-                      <div className="mt-3 h-1 w-0 group-hover:w-full bg-linear-to-r from-green-500 to-green-400 rounded-full transition-all duration-500"></div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
+       
       </div>
       <TestimonialCarousel/>
     </div>

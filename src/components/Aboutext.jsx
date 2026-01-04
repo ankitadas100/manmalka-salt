@@ -53,7 +53,7 @@ export default function ManmalkaSalt() {
             <div className="space-y-6 sm:space-y-8 order-2 lg:order-1">
               <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-xl border border-orange-100 hover:shadow-2xl transition-all duration-300 hover:scale-[1.02]">
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  From the time we started our way, our one and only goal was to produce, supply, and distribute high-grade but cost-effective industrial and edible salt to our consumers. We, <span className="font-semibold text-orange-600">MANMALKA SALT</span>, glad to announce that we have reached our goal efficaciously. Our journey has started in the year <span className="font-semibold">2011</span> as a small salt trading company and today, we are renowned as one of the <span className="font-semibold text-orange-600">largest salt manufacturing and distributing firms in India</span>.
+                  From the time we started our way, our one and only goal was to produce, supply, and distribute high-grade but cost-effective industrial and edible salt to our customers. We, <span className="font-semibold text-orange-600">MANMALKA SALT</span>, glad to announce that we have reached our goal efficaciously. Our journey has started in the year <span className="font-semibold">2011</span> as a small salt trading company and today, we are renowned as one of the <span className="font-semibold text-orange-600">one of the best salt manufacturing and distributing firms in India</span>.
                 </p>
               </div>
 
@@ -116,14 +116,13 @@ export default function ManmalkaSalt() {
             <div className="space-y-4 sm:space-y-6 order-1 md:order-2">
               <div className="bg-linear-to-br from-orange-50 to-yellow-50 rounded-2xl p-6 sm:p-8 border-l-4 border-orange-500 hover:shadow-lg transition-shadow duration-300">
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  MANMALKA SALT has successfully made its presence at a <span className="font-semibold text-orange-600">pan-Indian level</span> to date and set up different salt manufacturing plants and regional offices all over India determinedly with the assurance to produce and supply only quality products.
+                  MANMALKA SALT has successfully made its presence at a <span className="font-semibold text-orange-600">pan-Indian level</span> to date and set up  salt manufacturing plants and regional offices all over India determinedly with the assurance to produce and supply only quality products.
                 </p>
               </div>
 
               <div className="bg-linear-to-br from-blue-50 to-purple-50 rounded-2xl p-6 sm:p-8 border-l-4 border-blue-500 hover:shadow-lg transition-shadow duration-300">
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  Headed by <span className="font-semibold">Mr. Ramgopal Agarwal</span>, the group has pulled through every stumbling block vigorously and established its remarkable presence in salt manufacturing as well as distribution domain inexorably. We believe in expanding and our everyday endeavor helps us to grow bit-by-bit and to reach the maximum numbers of consumers in the national and international marketplace. We are budding every day.
-                </p>
+                  "Led by <span className="font-semibold">Mr. Ramgopal Agarwal</span>, our group has overcome every challenge to become a leader in salt manufacturing and distribution. We are committed to constant growth, working hard every day to reach more customers across India and around the world."</p>
               </div>
             </div>
           </div>
