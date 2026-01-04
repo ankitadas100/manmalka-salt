@@ -43,7 +43,7 @@ export default function ManmalkaSalt() {
             />
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 font-semibold mb-2 px-4">
-              Best Salt Manufacturing & Distribution Firm India
+              "One of the best Salt  Manufacturing & Distribution Firm India
             </p>
             <div className="w-20 sm:w-24 h-1 bg-linear-to-r from-orange-500 to-yellow-500 mx-auto rounded-full"></div>
           </div>
