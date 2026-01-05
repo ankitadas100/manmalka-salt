@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
-import img2 from "../assets/lhis.jpg"
+import img2 from "../assets/lhis.jpeg"
 import img3 from "../assets/cs.jpg"
 import img4 from "../assets/vacuum-salt.jpg"
-import img5 from "../assets/Raw_Salt.jpg"
+import img5 from "../assets/Raw_Salt.jpeg"
 import img6 from "../assets/refined.jpg"
 import img7 from "../assets/rffs.webp"
-import img8 from "../assets/superfinesalt.jpg"
+import img8 from "../assets/superfinesalt.jpeg"
 import img1 from "../assets/bspic.jpg"
 import img9 from "../assets/rspic.jpeg"
 const TestimonialCarousel = () => {
