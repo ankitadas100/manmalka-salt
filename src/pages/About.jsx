@@ -3,6 +3,7 @@ import { Phone, Mail, Award, Target, Users, TrendingUp } from 'lucide-react';
 import as1 from "../assets/as1.jpg"
 import as2 from "../assets/as2.jpg"
 import { Link } from 'react-router';
+import d1 from "../assets/d2.jpg"
 export default function About() {
   const values = [
     {
@@ -32,13 +33,15 @@ export default function About() {
       name: "Mr. Ram Gopal Agarwal",
       role: "Director",
       phone: "+91 9830266994",
-      email: "director@manmalkasalt.com"
+      email: "director@manmalkasalt.com",
+      imgsrc:d1
     },
     {
       name: "Manju Devi Agarwal",
       role: "Director",
       phone: "+91 9331166994",
-      email: "director@manmalkasalt.com"
+      email: "director@manmalkasalt.com",
+      imgsrc:false
     }
   ];
 
@@ -128,7 +131,7 @@ export default function About() {
               <div className="bg-linear-to-r from-orange-500 to-orange-700 h-32"></div>
               <div className="p-8 -mt-12">
                 <div className="w-24 h-24 bg-white rounded-full shadow-lg mb-6 flex items-center justify-center text-4xl font-bold text-blue-600 border-4 border-white">
-                  {member.name.split(' ').map(n => n[0]).join('').slice(0, 2)}
+                 {member.imgsrc? <img className='rounded-full' src={`${member.imgsrc}`} alt="" />:member.name.split(' ').map(n => n[0]).join('').slice(0, 2)}
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">{member.name}</h3>
                 <p className="text-orange-600 font-semibold text-lg mb-6">{member.role}</p>
