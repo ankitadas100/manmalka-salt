@@ -4,6 +4,7 @@ import as1 from "../assets/as1.jpg"
 import as2 from "../assets/as2.jpg"
 import { Link } from 'react-router';
 import d1 from "../assets/d2.jpg"
+import d2 from "../assets/d1.jpeg"
 export default function About() {
   const values = [
     {
@@ -41,7 +42,7 @@ export default function About() {
       role: "Director",
       phone: "+91 9331166994",
       email: "director@manmalkasalt.com",
-      imgsrc:false
+      imgsrc:d2
     }
   ];
 
