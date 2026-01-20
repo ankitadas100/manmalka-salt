@@ -63,7 +63,7 @@ export default function ProfessionalFooter() {
 
                         {/* Social Media Icons */}
                         <div className="flex gap-3 pt-2">
-                            <a href="#" className="w-10 h-10 bg-blue-700/50 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110" aria-label="Facebook">
+                            <a href="https://www.facebook.com/share/1HPxXXtCpn/" target='_blank' className="w-10 h-10 bg-blue-700/50 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110" aria-label="Facebook">
                                 <Facebook className="w-5 h-5" />
                             </a>
                             <a href="https://x.com/manmalka" target='_blank' className="w-10 h-10 bg-blue-700/50 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110" aria-label="Twitter">
@@ -72,7 +72,7 @@ export default function ProfessionalFooter() {
                             <a href="#" className="w-10 h-10 bg-blue-700/50 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110" aria-label="LinkedIn">
                                 <Linkedin className="w-5 h-5" />
                             </a>
-                            <a href="#" className="w-10 h-10 bg-blue-700/50 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110" aria-label="Instagram">
+                            <a href="https://www.instagram.com/msmanmalkasaltpvtltd/?hl=en" target='_blank' className="w-10 h-10 bg-blue-700/50 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110" aria-label="Instagram">
                                 <Instagram className="w-5 h-5" />
                             </a>
                             <a href="#" className="w-10 h-10 bg-blue-700/50 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110" aria-label="YouTube">
